@@ -1,24 +1,24 @@
 # EncryptionUtils
 API Java para criptografar textos em claro.
+Esta API permite a criptogrifia de texto plano e utiliza duas abordagens: HEX ou OCTAL.<br /><br />
 
-Esta API permite a criptogrifia de texto plano e utiliza duas abordagens: HEX ou OCTAL.
-
---Baixando do repository para o seu PC:
-  Faça o download do git: 
-  (Linux) sudo apt-get install git
+--<b>Baixando do repository para o seu PC:</b><br />
+  Faça o download do git: <br />
+  (Linux) sudo apt-get install git<br />
   (Windows) Instale o git bash
 
   Faça o clone do repositório: git clone https://github.com/MichaelSSantos/EncryptionUtils.git
 
---Utilizando a API EncryptionUtils:
-Se criptografia hexadecimal:
+--<b>Utilizando a API EncryptionUtils:</b><br/>
+Se criptografia hexadecimal:<br />
 Algorithm alg = AlgorithmFactory.getInstance("HEX");
+<br /><br />
 
-Se criptografia octal:
+Se criptografia octal:<br />
 Algorithm alg = AlgorithmFactory.getInstance("OCTAL");
 
-//Use o método encrypt para criptografar o texto.
+Use o método encrypt para criptografar o texto.<br />
 String cifrado = alg.encrypt("Texto em claro");
 
-//Use o método decrypt para decriptografar o texto.
+Use o método decrypt para decriptografar o texto.<br />
 String textoClaro = alg.decrypt(cifrado);
