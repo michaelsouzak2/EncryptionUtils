@@ -2,6 +2,8 @@
 API Java para criptografar textos em claro.
 Esta API permite a criptogrifia de texto plano e utiliza duas abordagens: HEX ou OCTAL.<br /><br />
 
+Requisitos: Java 6 ou superior<br />
+
 --<b>Baixando do repository para o seu PC:</b><br />
   Faça o download do git: <br />
   (Linux) sudo apt-get install git<br />
